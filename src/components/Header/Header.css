@@ -5,6 +5,7 @@
     font-size: 24px;
     cursor: pointer;
     font-weight: 500;
+   
 }
 .container nav a:hover{
     color: rgb(247, 82, 17);
@@ -12,4 +13,9 @@
 .container nav {
     background-color: rgb(176, 245, 222);
     padding: 20px;
+}
+@media screen and (min-width:480) {
+    .container nav {
+        display: none;
+    }
 }
