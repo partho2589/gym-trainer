@@ -7,7 +7,7 @@ const About = () => {
             <div>
                 <img className='image' src={partho} alt="" />
                 <h3>Name: Partho malo</h3>
-                <p><h4>My 5 month meaysion. I am a web developer. jfjkdfjjjjjjjjjjjjjjjjjjjj jjjjjjjjjjjjjjkdfjkdfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</h4></p>
+                <p>I will be completing the web development course within the next five months. After that I will learn one of the two programming languages like Python or PHP. I will be admitted in the fourth semester of Diploma Engineering.</p>
             </div>
         </div>
     );
