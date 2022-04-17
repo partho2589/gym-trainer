@@ -3,8 +3,36 @@
     margin-top: 20px;
 }
 
-@media screen and (min-width: 480px) {
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: left;
+}
+.card-img{
+    width: 430px;
+    height: 300px;
+}
+.card-btn{
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 0;
+    padding:12px 50px;
+    font-size: 17px;
+}
+.card-title-price{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width:575px) {
+    .card-container{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-gap: 20px;
+        text-align: left;
+    }
     .banner{
         width: 100%;
+        margin-top: 20px;
     }
 }

@@ -13,9 +13,9 @@
 .container nav {
     background-color: rgb(176, 245, 222);
     padding: 20px;
+   
 }
-@media screen and (min-width:480) {
-    .container nav {
-        display: none;
-    }
+.container{
+width: 100%;
+margin-top: 0;
 }

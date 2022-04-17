@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='container'>
-            <h4>CopyRight Home and Gym Workout Trainer</h4>
+            <h4 className='copyright'>CopyRight Home and Gym Workout Trainer</h4>
         </div>
     );
 };
