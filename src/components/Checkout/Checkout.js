@@ -1,9 +1,10 @@
 import React from 'react';
-
+import './Checkout.css'
+import welcome from '../images/welcome.jpg'
 const Checkout = () => {
     return (
         <div>
-            <h1>This is Checkout page</h1>
+            <img className='welcome' src={welcome} alt="" />
         </div>
     );
 };
