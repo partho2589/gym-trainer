@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import google from '../images/google.jpg'
 import './Login.css';
 
 const Login = () => {
@@ -58,6 +59,12 @@ const Login = () => {
                 <p>
                     New to Gym Workout Trainer ? <Link className='form-link' to="/signup">Create an account</Link>
                 </p>
+                <button className='btn'>
+                    <div className='btn-container'>
+                        <img className='google-img' src={google} alt="" />
+                    <h5 className='title'>Continue with Google</h5>
+                    </div>
+                </button>
             </div>
         </div>
     );
